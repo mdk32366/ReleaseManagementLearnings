@@ -1,4 +1,4 @@
-#### Dude, where's my permission?
+#### [Dude, where's my permission?](http://www.salesforcehacker.com/2013/05/dude-wheres-my-permission.html)
 
 When working with profiles and permission sets in the Metadata API (MdAPI) have you ever wondered why a permission didn't migrate as expected? Maybe this happened when you were using a client app built on top of the MdAPI—like the Force.com IDE, Force.com Migration Tool, or Change Sets—instead of using the MdAPI directly, but regardless, you thought the permission would be there in the target organization and it wasn't.
 
