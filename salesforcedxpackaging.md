@@ -32,3 +32,22 @@ Metadata deployment methods:
  * Release Manager ensures testing has taken place (likely using a script written for that purpose that automatically runs the test and reports coverage and test status) then deploys to UAT
  * Any changes that need occur to that package are managed by DX using the CLI and VCS to ensure the Unlocked Package contains that single Immutable Artifact that will eventually after being fully tested, will be deployed to the Production Org, where it will NOT be a part of the Happy Soup, but will be a Package.
  * Going forward, the fewer changes made outside of packages, the better in terms of maintainability.
+
+Maintaining and Enhancing an App using Packages
+
+* Branch from Source Control
+* Develop in a Scratch Org
+* Test new Version of the Unlocked Package with your one feature via CLI
+* Push to UAT instance from Source Control using CLI
+* Make changes, test, rinse, repeat
+* Deploy new Version of the Unlocked Package to Production Org.
+
+Migrating Existing Metadata into Packages
+* Phased and Iterative
+* Generally, the prod consists of Installed AppEx Apps and Unpackaged Metadata
+* You start managing existing Metadata into small Unlocked Packages.
+* Production environment evolves until you settle into mostly
+  * Installed AppEx Apps
+  * Newly organized Salesforce DX Packages
+  * A little bit of Unpackaged Metadata (legacy stuff and odds and ends)
+* Now able to source, version, and document each package.
