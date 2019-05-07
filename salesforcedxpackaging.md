@@ -51,3 +51,12 @@ Migrating Existing Metadata into Packages
   * Newly organized Salesforce DX Packages
   * A little bit of Unpackaged Metadata (legacy stuff and odds and ends)
 * Now able to source, version, and document each package.
+
+App Hub
+* Manage all packages in an Org.
+* Currently Beta - Available in GA Summer of 19.
+
+Package Types:
+* Unlocked - editable packages
+* Locked - not editable, except by certain developers.
+
