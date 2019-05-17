@@ -84,3 +84,4 @@ Define the SFDC_USERNAME variable, but don’t set its value. You do that later.
 Although not required, we assume you’ve used the Jenkins Global Tool Configuration to create the toolbelt custom tool that points to the CLI installation directory. In your Jenkinsfile, use the tool command to set the value of the toolbelt variable to this custom tool.
 
     def toolbelt = tool 'toolbelt'
+
