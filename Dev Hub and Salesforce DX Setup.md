@@ -100,6 +100,7 @@ Set this environment variable to point to the CA file: NODE_EXTRA_CA_CERTS.
 Your Corporate Network Is Blocking Salesforce Hosts
 
 It’s possible that your corporate network is blocking the Salesforce hosts for updating or installing Salesforce CLI. Contact your IT department to whitelist these domains:
+
     https://developer.salesforce.com/media/salesforce-cli
     https://registry.npmjs.org
 
